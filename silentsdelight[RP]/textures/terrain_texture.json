@@ -1,0 +1,23 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "warden_heart": {
+            "textures": "textures/blocks/warden_heart"
+        },
+        "sculk_catalyst_pie_bottom": {
+            "textures": "textures/blocks/sculk_catalyst_pie_bottom"
+        },
+        "sculk_catalyst_pie_inner": {
+            "textures": "textures/blocks/sculk_catalyst_pie_inner"
+        },
+        "sculk_catalyst_pie_side": {
+            "textures": "textures/blocks/sculk_catalyst_pie_side"
+        },
+        "sculk_catalyst_pie_top": {
+            "textures": "textures/blocks/sculk_catalyst_pie_top"
+        }
+    }
+}

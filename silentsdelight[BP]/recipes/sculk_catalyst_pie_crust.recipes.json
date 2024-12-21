@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmersdelight:chocolate_pie_from_slice"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " S ",
+            "WMW",
+            " S "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:sculk_catalyst"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            },
+            "M": {
+                "item": "farmersdelight:milk_bottle"
+            }
+        },
+        "result": {
+            "item": "silentsdelight:sculk_catalyst_pie_crust"
+        }
+    }
+}

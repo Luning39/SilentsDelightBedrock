@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "silentsdelight:baked_warden_ear_on_a_stick"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "silentsdelight:warden_ear_on_a_stick",
+        "output": "silentsdelight:baked_warden_ear_on_a_stick"
+    }
+}

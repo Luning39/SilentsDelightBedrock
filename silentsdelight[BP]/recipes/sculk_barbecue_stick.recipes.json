@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "silentsdelight:sculk_barbecue_stick"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "silentsdelight:sculk_sensor_tendril"
+            },            
+            {
+                "item": "farmersdelight:tomato"
+            },
+            {
+                "item": "silentsdelight:sculk_sensor_tendril"
+            }
+        ],
+        "result": {
+            "item": "silentsdelight:sculk_sensor_tendril"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.plated_warden_heart_stage1",
+                "texture_width": 32,
+                "texture_height": 32,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 3,
+                "visible_bounds_offset": [
+                    0,
+                    0.5,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "bone",
+                    "pivot": [
+                        8,
+                        0,
+                        -8
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -7,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                2,
+                                14
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        22
+                                    ],
+                                    "uv_size": [
+                                        28,
+                                        4
+                                    ],
+                                    "material_instance": "tray_bottom"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        22
+                                    ],
+                                    "uv_size": [
+                                        28,
+                                        4
+                                    ],
+                                    "material_instance": "tray_bottom"
+                                },
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        22
+                                    ],
+                                    "uv_size": [
+                                        28,
+                                        4
+                                    ],
+                                    "material_instance": "tray_bottom"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        22
+                                    ],
+                                    "uv_size": [
+                                        28,
+                                        4
+                                    ],
+                                    "material_instance": "tray_bottom"
+                                },
+                                "up": {
+                                    "uv": [
+                                        30,
+                                        30
+                                    ],
+                                    "uv_size": [
+                                        -28,
+                                        -28
+                                    ],
+                                    "material_instance": "tray_pie_leftover"
+                                },
+                                "down": {
+                                    "uv": [
+                                        30,
+                                        30
+                                    ],
+                                    "uv_size": [
+                                        -28,
+                                        -28
+                                    ],
+                                    "material_instance": "tray_bottom"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                2,
+                                -4
+                            ],
+                            "size": [
+                                8,
+                                9,
+                                8
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        9
+                                    ],
+                                    "material_instance": "warden_heart"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        9
+                                    ],
+                                    "material_instance": "warden_heart"
+                                },
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        9
+                                    ],
+                                    "material_instance": "warden_heart"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        9
+                                    ],
+                                    "material_instance": "warden_heart"
+                                },
+                                "up": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        8
+                                    ],
+                                    "material_instance": "warden_heart"
+                                },
+                                "down": {
+                                    "uv": [
+                                        16,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        -8
+                                    ],
+                                    "material_instance": "warden_heart"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

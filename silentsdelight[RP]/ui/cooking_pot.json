@@ -1,0 +1,158 @@
+{
+    "silentsdelight_recipe_part_0": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "sculk_sensor_sprinkles@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/598206",
+                                "$cell1": "textures/items/sweet_berries",
+                                "$cell2": "textures/items/sugar",
+                                "$cell3": "textures/items/sculk_sensor_tendril",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/sculk_sensor_sprinkles"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "sculk_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/598206",
+                                "$cell1": "textures/items/egg",
+                                "$cell2": "textures/items/carrot",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/sculk_soup"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "silentsdelight_recipe_grid_0": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.silentsdelight_recipe_part_0"
+    },
+    "silentsdelight_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "warden_ear_fried_rice@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/cut_warden_ear",
+                                "$cell1": "textures/items/rice",
+                                "$cell2": "textures/items/egg",
+                                "$cell3": "textures/items/carrot",
+                                "$cell4": "textures/items/onion",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/warden_ear_fried_rice"
+                            }
+                        }
+                    ]
+                }
+               },
+            {
+                "sculk_shrieker_shake@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/598208",
+                                "$cell1": "textures/items/sugar",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/sculk_shrieker_shake"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "silentsdelight_recipe_grid_1": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.silentsdelight_recipe_part_1"
+    },
+    "recipe_grid_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "silentsdelight_recipe_grid_0@cooking_pot.silentsdelight_recipe_part_0": {}
+                    },
+                    {
+                        "silentsdelight_recipe_grid_1@cooking_pot.silentsdelight_recipe_grid_1": {}
+                    }
+                ]
+            }
+        ]
+    }
+}

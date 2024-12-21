@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cutting_board_recipe minecraft:sculk_sensor?BlockofKnifeList
+scoreboard objectives remove farmersdelight_silentsdelight_cutting_board

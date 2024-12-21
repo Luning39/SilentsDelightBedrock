@@ -1,0 +1,72 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "silentsdelight:baked_warden_ear_on_a_stick": {
+      "textures": "textures/items/baked_warden_ear_on_a_stick"
+    },
+    "silentsdelight:cut_warden_ear": {
+      "textures": "textures/items/cut_warden_ear"
+    },
+    "silentsdelight:heartburger": {
+      "textures": "textures/items/heartburger"
+    },
+    "silentsdelight:minced_warden_heart": {
+      "textures": "textures/items/minced_warden_heart"
+    },
+    "silentsdelight:plate_of_warden_heart": {
+      "textures": "textures/items/plate_of_warden_heart"
+    },
+    "silentsdelight:plated_warden_heart": {
+      "textures": "textures/items/plated_warden_heart"
+    },
+    "silentsdelight:sculk_barbecue_stick": {
+      "textures": "textures/items/sculk_barbecue_stick"
+    },
+    "silentsdelight:sculk_catalyst_pie": {
+      "textures": "textures/items/sculk_catalyst_pie"
+    },
+    "silentsdelight:sculk_catalyst_pie_crust": {
+      "textures": "textures/items/sculk_catalyst_pie_crust"
+    },
+    "silentsdelight:sculk_catalyst_pie_slice": {
+      "textures": "textures/items/sculk_catalyst_pie_slice"
+    },
+    "silentsdelight:sculk_sensor_sprinkles": {
+      "textures": "textures/items/sculk_sensor_sprinkles"
+    },
+    "silentsdelight:sculk_sensor_tendril": {
+      "textures": "textures/items/sculk_sensor_tendril"
+    },
+    "silentsdelight:sculk_sensor_tendril_roll": {
+      "textures": "textures/items/sculk_sensor_tendril_roll"
+    },
+    "silentsdelight:sculk_sensor_tendril_roll_slice": {
+      "textures": "textures/items/sculk_sensor_tendril_roll_slice"
+    },
+    "silentsdelight:sculk_shrieker_shake": {
+      "textures": "textures/items/sculk_shrieker_shake"
+    },
+    "silentsdelight:sculk_soup": {
+      "textures": "textures/items/sculk_soup"
+    },
+    "silentsdelight:sculk_vein_salad": {
+      "textures": "textures/items/sculk_vein_salad"
+    },
+    "silentsdelight:warden_ear": {
+      "textures": "textures/items/warden_ear"
+    },
+    "silentsdelight:warden_ear_fried_rice": {
+      "textures": "textures/items/warden_ear_fried_rice"
+    },
+    "silentsdelight:warden_ear_on_a_stick": {
+      "textures": "textures/items/warden_ear_on_a_stick"
+    },
+    "silentsdelight:warden_heart": {
+      "textures": "textures/items/warden_heart"
+    },
+    "silentsdelight:warden_heart_patty": {
+      "textures": "textures/items/warden_heart_patty"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "silentsdelight:sculk_catalyst_pie_from_slice"
+        },
+        "ingredients": [
+            {
+                "item": "silentsdelight:sculk_catalyst_pie_slice"
+            },
+            {
+                "item": "silentsdelight:sculk_catalyst_pie_slice"
+            },
+            {
+                "item": "silentsdelight:sculk_catalyst_pie_slice"
+            },
+            {
+                "item": "silentsdelight:sculk_catalyst_pie_slice"
+            }
+        ],
+        "result": {
+            "item": "silentsdelight:sculk_catalyst_pie_block_item"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

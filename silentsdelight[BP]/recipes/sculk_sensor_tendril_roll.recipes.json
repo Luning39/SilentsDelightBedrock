@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "silentsdelight:sculk_sensor_tendril_roll"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "RCR",
+            "SSS"
+        ],
+        "key": {
+            "R": {
+                "item": "farmersdelight:cooked_rice"
+            },
+            "C": {
+                "item": "minecraft:carrot"
+            },
+            "S": {
+                "item": "silentsdelight:sculk_sensor_tendril"
+            }
+        },
+        "result": {
+            "item": "silentsdelight:sculk_sensor_tendril_roll"
+        }
+    }
+}

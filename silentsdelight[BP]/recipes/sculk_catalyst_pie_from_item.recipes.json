@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "silentsdelight:sculk_catalyst_pie_from_item"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WWW",
+            "SSS",
+            "CBC"
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:wheat"
+            },
+            "S": {
+                "item": "minecraft:sculk_catalyst"
+            },
+            "C": {
+                "item": "minecraft:sculk"
+            },
+            "B": {
+                "item": "silentsdelight:sculk_catalyst_pie_crust"
+            }
+        },
+        "result": {
+            "item": "silentsdelight:sculk_catalyst_pie_block_item"
+        }
+    }
+}

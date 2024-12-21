@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "silentsdelight:plated_warden_heart"
+        },
+        "ingredients": [
+            {
+                "item": "farmersdelight:milk_bottle"
+            },
+            {
+                "item": "minecraft:baked_potato"
+            },
+            {
+                "item": "farmersdelight:onion"
+            },
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "silentsdelight:warden_heart"
+            }
+        ],
+        "result": {
+            "item": "silentsdelight:plated_warden_heart_block_item"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
