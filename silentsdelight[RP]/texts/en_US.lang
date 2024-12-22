@@ -1,0 +1,29 @@
+pack.name=Silent's Delight[RP]
+pack.description=This addon is ported based on the original Java Edition mod Silent's Delight and this work is licensed under the GPL License. For 1.21.40+ and FarmersDelightv3.0.0+. Please place it above the main package to load.
+
+tile.silentsdelight:plated_warden_heart_block.name=Plated Warden Heart
+tile.silentsdelight:sculk_catalyst_pie_block.name=Sculk Catalyst Pie
+
+item.silentsdelight:plated_warden_heart_block_item=Plated Warden Heart
+item.silentsdelight:warden_heart=Warden Heart
+item.silentsdelight:sculk_catalyst_pie_block_item=Sculk Catalyst Pie
+item.silentsdelight:sculk_sensor_tendril=Sculk Sensor Tendril
+item.silentsdelight:sculk_shrieker_shake=Sculk Shrieker Shake
+item.silentsdelight:sculk_catalyst_pie_crust=Sculk Catalyst Pie Crust
+item.silentsdelight:sculk_sensor_sprinkles=Sculk Sensor Sprinkles
+item.silentsdelight:minced_warden_heart=Minced Warden Heart
+item.silentsdelight:sculk_sensor_tendril_roll=Sculk Sensor Tendril Roll
+item.silentsdelight:sculk_catalyst_pie_block_item=Sculk Catalyst Pie
+item.silentsdelight:sculk_barbecue_stick=Sculk Barbecue Stick
+item.silentsdelight:plate_of_warden_heart=Plate Of Warden Heart
+item.silentsdelight:heartburger=Heartburger
+item.silentsdelight:sculk_soup=Sculk Soup
+item.silentsdelight:sculk_sensor_tendril_roll_slice=Sculk Sensor Tendril Roll Slice
+item.silentsdelight:warden_ear_fried_rice=Warden ear Fried Rice
+item.silentsdelight:sculk_catalyst_pie_slice=Sculk Catalyst Pie Slice
+item.silentsdelight:sculk_vein_salad=Sculk Vein Salad
+item.silentsdelight:warden_heart_patty=Warden Heart Patty
+item.silentsdelight:warden_ear=Warden Ear
+item.silentsdelight:cut_warden_ear=Cut Warden Ear
+item.silentsdelight:baked_warden_ear_on_a_stick=Baked Warden Ear On A Stick
+item.silentsdelight:warden_ear_on_a_stick=Warden Ear On A Stick
