@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/minced_warden_heart"
 			},
-			"identifier": "farmersdelight:stove_minced_warden_heart"
+			"identifier": "silentsdelight:stove_minced_warden_heart"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

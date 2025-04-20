@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/warden_ear_on_a_stick"
 			},
-			"identifier": "farmersdelight:stove_warden_ear_on_a_stick"
+			"identifier": "silentsdelight:stove_warden_ear_on_a_stick"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

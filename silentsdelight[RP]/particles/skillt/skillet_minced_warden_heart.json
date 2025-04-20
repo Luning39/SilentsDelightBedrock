@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/minced_warden_heart"
 			},
-			"identifier": "farmersdelight:skillet_minced_warden_heart"
+			"identifier": "silentsdelight:skillet_minced_warden_heart"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {
