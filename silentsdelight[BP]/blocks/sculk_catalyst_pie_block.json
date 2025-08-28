@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "silentsdelight:sculk_catalyst_pie_block",
@@ -98,9 +98,7 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
+            "farmersdelight:interact": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },
@@ -108,6 +106,7 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.5
             },
+            "minecraft:geometry": "geometry.pie",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "sculk_catalyst_pie_top"
@@ -150,8 +149,8 @@
                     12.0
                 ]
             },
-            "tag:farmersdelight:pie":{},
-            "tag:farmersdelight.pie:3-tag.farmersdelight:is_knife":{}
+            "tag:farmersdelight:pie": {},
+            "tag:farmersdelight.pie:3-tag.farmersdelight:is_knife": {}
         }
     }
 }

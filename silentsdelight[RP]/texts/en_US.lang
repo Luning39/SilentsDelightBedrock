@@ -1,5 +1,5 @@
 pack.name=Silent's Delight[RP]
-pack.description=This addon is ported based on the original Java Edition mod Silent's Delight and this work is licensed under the GPL License. For 1.21.70+ and FarmersDelightv3.2.0+. Please place it above the main package to load.
+pack.description=This addon is ported based on the original Java Edition mod Silent's Delight and this work is licensed under the GPL License. For 1.21.90+ and FarmersDelightv4.0.0+. Please place it above the main package to load.
 
 tile.silentsdelight:plated_warden_heart_block.name=Plated Warden Heart
 tile.silentsdelight:sculk_catalyst_pie_block.name=Sculk Catalyst Pie
@@ -27,5 +27,3 @@ item.silentsdelight:warden_ear=Warden Ear
 item.silentsdelight:cut_warden_ear=Cut Warden Ear
 item.silentsdelight:baked_warden_ear_on_a_stick=Baked Warden Ear On A Stick
 item.silentsdelight:warden_ear_on_a_stick=Warden Ear On A Stick
-
-silentsdelight:itemGroup.name.silentsdelight=Silent's Delight

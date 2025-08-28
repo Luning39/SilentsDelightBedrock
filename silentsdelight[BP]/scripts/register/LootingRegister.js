@@ -25,7 +25,7 @@ export class LootingRegister {
         const health = hurtEntity.getComponent('minecraft:health');
         if (!health?.currentValue && hurtEntity.typeId === 'minecraft:warden') {
             try {
-                ItemAPI.spawn(hurtEntity, 'silentsdelight:warden_heart', RandomAPI.RandomInt(2));
+                ItemAPI.spawn(hurtEntity, 'silentsdelight:warden_heart');
                 ItemAPI.spawn(hurtEntity, 'silentsdelight:warden_ear', RandomAPI.RandomInt(3));
             }
             catch (error) { }

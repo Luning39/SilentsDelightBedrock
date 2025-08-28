@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.40",
+    "format_version": "1.21.90",
     "minecraft:item": {
         "components": {
             "minecraft:block_placer": {
@@ -11,17 +11,24 @@
                 }
             },
             "minecraft:max_stack_size": 1,
-            "minecraft:tags": {
-                "tags": [
-                    "farmersdelight:can_cut.tag.farmersdelight:is_knife"
-                ]
+            "farmersdelight:cuttable": {
+                "loot": [
+                    [
+                        "silentsdelight:sculk_catalyst_pie_slice",
+                        4
+                    ]
+                ],
+                "tool": {
+                    "type": "tag",
+                    "name": "farmersdelight:is_knife"
+                }
             }
         },
         "description": {
             "identifier": "silentsdelight:sculk_catalyst_pie_block_item",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.miscFood"
+                "group": "farmersdelight:itemGroup.name.miscFood"
             }
         }
     }

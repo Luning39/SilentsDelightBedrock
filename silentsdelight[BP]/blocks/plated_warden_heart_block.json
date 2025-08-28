@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "silentsdelight:plated_warden_heart_block",
@@ -91,9 +91,6 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1.0
             },
@@ -101,13 +98,14 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.25
             },
+            "minecraft:geometry": "geometry.plated_warden_heart_stage1",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "warden_heart",
                     "render_method": "alpha_test"
                 },
-                "wardens_heart": {
-                    "texture": "wardens_heart",
+                "warden_heart": {
+                    "texture": "warden_heart",
                     "render_method": "alpha_test"
                 },
                 "tray_bottom": {
@@ -143,6 +141,7 @@
                     14.0
                 ]
             },
+            "farmersdelight:interact": {},
             "tag:farmersdelight.blockfood:2-item.minecraft:bowl": {},
             "tag:farmersdelight:blockfood": {}
         }
