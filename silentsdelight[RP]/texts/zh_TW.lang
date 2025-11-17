@@ -1,8 +1,9 @@
 pack.name=幽匿樂事[資源包]
-pack.description=本模組根據原Java版模組幽匿樂事在遵循GPL協議的情況下進行移植。適配1.21.90+，適配農夫樂事v4.0.0+。請置於主包上方加載。
+pack.description=本模組根據原Java版模組幽匿樂事在遵循GPL協議的情況下進行移植。適配1.21.110+，適配農夫樂事v4.1.0+。請置於主包上方加載。
 
 tile.silentsdelight:plated_warden_heart_block.name=奶汁心臟  
 tile.silentsdelight:sculk_catalyst_pie_block.name=幽匿催發派  
+tile.silentsdelight:sculk_catalyst_pie.name=幽匿催發派
 
 item.silentsdelight:plated_warden_heart_block_item=奶汁心臟  
 item.silentsdelight:warden_heart=監守者心臟  
@@ -13,7 +14,6 @@ item.silentsdelight:sculk_catalyst_pie_crust=幽匿催發酥皮
 item.silentsdelight:sculk_sensor_sprinkles=幽匿感測糖珠  
 item.silentsdelight:minced_warden_heart=監守者心臟餡  
 item.silentsdelight:sculk_sensor_tendril_roll=觸手壽司卷  
-item.silentsdelight:sculk_catalyst_pie_block_item=幽匿催發派  
 item.silentsdelight:sculk_barbecue_stick= 幽匿感測體觸手串
 item.silentsdelight:plate_of_warden_heart=盤裝奶汁心臟  
 item.silentsdelight:heartburger=監守者心臟堡  

@@ -1,8 +1,8 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.21.110",
     "minecraft:block": {
         "description": {
-            "identifier": "silentsdelight:sculk_catalyst_pie_block",
+            "identifier": "silentsdelight:sculk_catalyst_pie",
             "menu_category": {
                 "category": "none"
             },
