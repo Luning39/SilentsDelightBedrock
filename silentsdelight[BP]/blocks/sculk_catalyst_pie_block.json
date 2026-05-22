@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "silentsdelight:sculk_catalyst_pie_block",
@@ -150,20 +150,16 @@
                 ]
             },
             "tag:farmersdelight:pie": {},
-            "farmersdelight:pie": {
-                "item": "silentsdelight:sculk_catalyst_pie_slice",
-                "nutrition": 4,
-                "saturation_modifier": 0.5,
-                "effects": [
-                    [
-                        "speed",
-                        600
-                    ]
-                ],
-                "state": {
-                    "max_use": 3,
-                    "name": "farmersdelight:food_block_stage"
-                }
+            "farmersdelight:pastry": {
+                "slice": "silentsdelight:sculk_catalyst_pie_slice",
+                "counter": "farmersdelight:food_block_stage",
+                "servings": 4
+            },
+            "minecraft:redstone_conductivity": {
+                "allows_wire_to_step_down": false
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
             }
         }
     }

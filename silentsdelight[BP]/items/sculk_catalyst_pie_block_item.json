@@ -1,35 +1,23 @@
 {
-    "format_version": "1.21.90",
-    "minecraft:item": {
-        "components": {
-            "minecraft:block_placer": {
-                "block": "silentsdelight:sculk_catalyst_pie_block"
-            },
-            "minecraft:icon": {
-                "textures": {
-                    "default": "silentsdelight:sculk_catalyst_pie"
-                }
-            },
-            "minecraft:max_stack_size": 1,
-            "farmersdelight:cuttable": {
-                "loot": [
-                    [
-                        "silentsdelight:sculk_catalyst_pie_slice",
-                        4
-                    ]
-                ],
-                "tool": {
-                    "type": "tag",
-                    "name": "farmersdelight:is_knife"
-                }
-            }
-        },
-        "description": {
-            "identifier": "silentsdelight:sculk_catalyst_pie_block_item",
-            "menu_category": {
-                "category": "equipment",
-                "group": "farmersdelight:itemGroup.name.miscFood"
-            }
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "silentsdelight:sculk_catalyst_pie_block"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "silentsdelight:sculk_catalyst_pie"
         }
+      },
+      "minecraft:max_stack_size": 1
+    },
+    "description": {
+      "identifier": "silentsdelight:sculk_catalyst_pie_block_item",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
     }
+  }
 }

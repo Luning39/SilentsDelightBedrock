@@ -1,41 +1,29 @@
 {
-    "format_version": "1.21.90",
-    "minecraft:item": {
-        "description": {
-            "identifier": "silentsdelight:warden_ear",
-            "menu_category": {
-                "category": "nature",
-                "group": "farmersdelight:itemGroup.name.rawFood"
-            }
-        },
-        "components": {
-            "minecraft:use_modifiers": {
-                "use_duration": 1.6
-            },
-            "minecraft:use_animation": "eat",
-            "minecraft:max_stack_size": 64,
-            "minecraft:food": {
-                "nutrition": 2,
-                "saturation_modifier": 0.16,
-                "can_always_eat": false
-            },
-            "minecraft:icon": {
-                "textures": {
-                    "default": "silentsdelight:warden_ear"
-                }
-            },
-            "farmersdelight:cuttable": {
-                "loot": [
-                    [
-                        "cut_warden_ear",
-                        3
-                    ]
-                ],
-                "tool": {
-                    "type": "tag",
-                    "name": "farmersdelight:is_knife"
-                }
-            }
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "silentsdelight:warden_ear",
+      "menu_category": {
+        "category": "nature",
+        "group": "farmersdelight:itemGroup.name.rawFood"
+      }
+    },
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:max_stack_size": 64,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.16,
+        "can_always_eat": false
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "silentsdelight:warden_ear"
         }
+      }
     }
+  }
 }
