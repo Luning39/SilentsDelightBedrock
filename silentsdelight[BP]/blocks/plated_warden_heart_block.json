@@ -107,7 +107,7 @@
       "farmersdelight:interact": {},
       "farmersdelight:dish": {
         "has_leftovers": true,
-        "servings": 3,
+        "servings": 2,
         "contents": "silentsdelight:plate_of_warden_heart",
         "utensil": "minecraft:bowl"
       }
